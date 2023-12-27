@@ -1,0 +1,21 @@
+.Navbar {
+    display: flex;
+    height: 30%;
+    background-color: red;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 2rem 0rem 2rem;
+    h2 {
+        color:aliceblue;
+        font-size: 2rem;
+    }
+    .Main-Nav a{
+        text-decoration: none;
+        color: aliceblue;
+        margin-left: 1rem;
+        font-weight: bold;
+        &::after{
+            
+        }
+    }
+}
